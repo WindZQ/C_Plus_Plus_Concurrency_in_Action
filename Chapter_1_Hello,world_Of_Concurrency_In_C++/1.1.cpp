@@ -1,15 +1,15 @@
 #include <iostream>
 #include <thread>
 
-void hello()
+void hello(void)
 {
-    std::cout << "Hello Concurrent World" << std::endl;
+    std::cout << "Hello Concurrent World!" << std::endl;
 }
 
 int main(void)
 {
     std::thread t(hello);
     t.join();
-	
-	return 0;
+
+    return 0;
 }
