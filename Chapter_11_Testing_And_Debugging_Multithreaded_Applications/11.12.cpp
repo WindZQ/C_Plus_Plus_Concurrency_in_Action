@@ -70,6 +70,7 @@ public:
         }
         catch(messaging::close_queue const&)
         {
+			
         }
     }
 	

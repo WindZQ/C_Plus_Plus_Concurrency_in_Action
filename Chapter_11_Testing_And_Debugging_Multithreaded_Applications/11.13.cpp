@@ -109,8 +109,10 @@ public:
         }
         catch(messaging::close_queue&)
         {
+			
         }
     }
+	
     messaging::sender get_sender()
     {
         return incoming;
